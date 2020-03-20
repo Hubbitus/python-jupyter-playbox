@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html
+podman run --rm -p 7878:8888 --name jupyter-playbox -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/notebooks:rw jupyter/scipy-notebook:latest
