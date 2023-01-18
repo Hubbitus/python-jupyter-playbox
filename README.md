@@ -1,7 +1,7 @@
-python-jupiter-playbox
+python-jupyter-playbox
 ======================
 
-Set of Python and Jupiter tries, demonstrations and POCs.
+Set of Python and Jupyter tries, demonstrations and POCs.
 
 Pandas, numpy, schickit-learn, scipy.
 
